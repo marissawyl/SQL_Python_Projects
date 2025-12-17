@@ -21,12 +21,12 @@ The analysis uses the Microsoft Contoso sample dataset (~199,000 rows), obtained
 ### Methodology
 #### SQL: Customer Modeling & Aggregation
 SQL was used as the primary layer for customer-level modeling and metric preparation. The main steps include:  
-**1. Customer-level aggregation**   
+##### **1. Customer-level aggregation**   
 - Combined customer name fields  
 - Identified last purchase date per customer  
 - Calculated purchase frequency and total monetary value  
 - Normalized revenue using exchange rates    
-**2. RFM metric calculation**  
+##### **2. RFM metric calculation**  
 - Recency calculated as days since last transaction  
 - Frequency defined as number of unique orders  
 - Monetary defined as total customer spending  
