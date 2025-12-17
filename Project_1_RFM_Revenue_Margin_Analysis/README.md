@@ -25,12 +25,12 @@ SQL was used as the primary layer for customer-level modeling and metric prepara
 - Combined customer name fields  
 - Identified last purchase date per customer  
 - Calculated purchase frequency and total monetary value  
-- Normalized revenue using exchange rates  
+- Normalized revenue using exchange rates    
 **2. RFM metric calculation**  
-   * Recency calculated as days since last transaction  
-   * Frequency defined as number of unique orders  
-   * Monetary defined as total customer spending  
-   * Percentile-based cutoffs (20%, 40%, 60%, 80%) used to assign R, F, and M scores  
+- Recency calculated as days since last transaction  
+- Frequency defined as number of unique orders  
+- Monetary defined as total customer spending  
+- Percentile-based cutoffs (20%, 40%, 60%, 80%) used to assign R, F, and M scores  
 **3. Customer segmentation**  
    * Customers were classified into standard RFM segments (e.g. Champions, Loyal, At Risk) based on score combinations  
    * Results were materialized as a reusable SQL view  
