@@ -96,5 +96,4 @@ SELECT
         END AS rfm_segment
 		
 FROM rfm_score
-
 ORDER BY customerkey;
