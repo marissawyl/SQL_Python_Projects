@@ -43,5 +43,5 @@ Python was used for exploratory analysis and visualization based on the aggregat
 - Distribution analysis of recency, frequency, and monetary metrics
 - Segment-level comparisons using treemaps and histograms
 - Revenue mix analysis by category and subcategory
-- Comparative analysis of revenue contribution and derived profit margin across segments  
+- Comparative analysis of revenue contribution and derived profit margin across segments<br>
 Visualizations were designed to highlight differences in customer behavior, revenue concentration, and trade-offs between revenue and profitability.
