@@ -1,4 +1,4 @@
-# Customer Segmentation & Revenue Analysis (RFM)
+# 📊 Customer Segmentation & Revenue Analysis (RFM)
 
 ## Introduction
 Understanding customer value goes beyond knowing who buys the most. In many businesses, a small group of customers often contributes a large portion of revenue, but high revenue does not always mean high profit.
