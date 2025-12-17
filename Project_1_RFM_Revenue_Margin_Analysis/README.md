@@ -46,3 +46,12 @@ Python was used for exploratory analysis and visualization based on the aggregat
 - Comparative analysis of revenue contribution and derived profit margin across segments
 
 Visualizations were designed to highlight differences in customer behavior, revenue concentration, and trade-offs between revenue and profitability.
+
+## Data & Methodology
+- **PostgreSQL**: Customer-level metric preparation, RFM scoring, and aggregation for analysis
+- **Python**: Exploratory analysis and data visualization
+  - **Pandas**
+  - **Matplotlib**
+  - **Seaborn**
+- **Visual Studio Code** and **DBeaver**: Development and database tools
+- **Jupyter Notebook**: Notebook environment
