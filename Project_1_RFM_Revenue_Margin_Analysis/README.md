@@ -13,3 +13,7 @@ This project focuses on understanding customer value and product performance usi
 3. Which product categories generate the highest sales volume among high-value customer segments, such as Champions and Loyal customers?
 4. How does revenue break down by category and subcategory for high-value customer segments?
 5. Which categories drive revenue, and which ones are actually more profitable? 
+
+## Data & Methodology
+### Data Source
+The analysis uses the Microsoft Contoso sample dataset (~100,000 rows), obtained from Luke Barousse’s data analytics resources. The dataset simulates transactional retail data, including sales, customer, product, and store information.
