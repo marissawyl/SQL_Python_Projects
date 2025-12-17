@@ -47,7 +47,7 @@ Python was used for exploratory analysis and visualization based on the aggregat
 
 Visualizations were designed to highlight differences in customer behavior, revenue concentration, and trade-offs between revenue and profitability.
 
-## Data & Methodology
+## Tools Details
 - **PostgreSQL**: Customer-level metric preparation, RFM scoring, and aggregation for analysis
 - **Python**: Exploratory analysis and data visualization
   - **Pandas**
