@@ -47,7 +47,7 @@ Python was used for exploratory analysis and visualization based on the aggregat
 
 Visualizations were designed to highlight differences in customer behavior, revenue concentration, and trade-offs between revenue and profitability.
 
-## Tools Details
+## Tools Used
 - **PostgreSQL**: Customer-level metric preparation, RFM scoring, and aggregation for analysis
 - **Python**: Exploratory analysis and data visualization
   - **Pandas**
@@ -55,3 +55,11 @@ Visualizations were designed to highlight differences in customer behavior, reve
   - **Seaborn**
 - **Visual Studio Code** and **DBeaver**: Development and database tools
 - **Jupyter Notebook**: Notebook environment
+
+## Analysis
+### Q1. How are customers spread across different RFM segments, and which segments generate the most revenue relative to their size?
+**Approach**
+- Aggregated customer-level transaction data to calculate recency, frequency, and monetary value
+- Assigned RFM scores using percentile-based thresholds
+- Classified customers into standard RFM segments
+- Compared segment size and total revenue contribution
