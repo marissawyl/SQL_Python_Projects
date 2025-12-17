@@ -19,33 +19,7 @@ This project focuses on understanding customer value and product performance usi
 The analysis uses the Microsoft Contoso sample dataset (~199,000 rows), obtained from Luke Barousse’s data analytics resources. The dataset contains transactional sales data along with customer and product attributes. The dataset is relatively clean and structured, so no extensive data cleaning was required.
 
 ### Methodology
-#### SQL: Customer Modeling & Aggregation
-SQL was used as the primary layer for customer-level modeling and metric preparation. The main steps include:  
-#### **1. Customer-level aggregation**
-- Combined customer name fields
-- Identified last purchase date per customer
-- Calculated purchase frequency and total monetary value
-- Normalized revenue using exchange rates
-#### **2. RFM metric calculation**
-- Recency calculated as days since last transaction
-- Frequency defined as number of unique orders
-- Monetary defined as total customer spending
-- Percentile-based cutoffs (20%, 40%, 60%, 80%) used to assign R, F, and M scores
-#### **3. Customer segmentation**
-- Customers were classified into standard RFM segments (e.g. Champions, Loyal, At Risk) based on score combinations
-- Results were materialized as a reusable SQL view
-#### **4. Category-level aggregation**
-- Focused analysis on high-value segments (Champions and Loyal)
-- Aggregated total units, total revenue, average revenue per customer, and revenue share by product category and subcategory
-
-#### Python: Analysis & Visualization
-Python was used for exploratory analysis and visualization based on the aggregated SQL outputs:
-- Distribution analysis of recency, frequency, and monetary metrics
-- Segment-level comparisons using treemaps and histograms
-- Revenue mix analysis by category and subcategory
-- Comparative analysis of revenue contribution and derived profit margin across segments
-
-Visualizations were designed to highlight differences in customer behavior, revenue concentration, and trade-offs between revenue and profitability.
+This project combines SQL and Python to analyze customer behavior and product performance. SQL is used to prepare analytical datasets by aggregating transactional data, segmenting customers, and calculating key business metrics. Python is then used to further analyze these datasets and create visualizations that highlight patterns, comparisons, and trade-offs across customer segments and product categories.
 
 ## Tools Used
 - **PostgreSQL**: Customer-level metric preparation, RFM scoring, and aggregation for analysis
@@ -63,3 +37,7 @@ Visualizations were designed to highlight differences in customer behavior, reve
 - Assigned RFM scores using percentile-based thresholds
 - Classified customers into standard RFM segments
 - Compared segment size and total revenue contribution
+
+Query: [1_create_rfm_segmentation_view.sql](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/1_create_rfm_segmentation_view.sql)
+
+**Visualization**
