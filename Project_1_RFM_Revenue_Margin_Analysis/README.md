@@ -38,7 +38,7 @@ This project combines SQL and Python to analyze customer behavior and product pe
 - Classified customers into standard RFM segments
 - Compared segment size and total revenue contribution
 
-Query: [1_create_rfm_segmentation_view.sql](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/1_create_rfm_segmentation_view.sql)
+Query: [1_create_rfm_segmentation_view.sql](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/1_create_rfm_segmentation_view.sql)  
 (This query creates a reusable RFM segmentation view using percentile-based scoring.)
 
 **Visualization**
