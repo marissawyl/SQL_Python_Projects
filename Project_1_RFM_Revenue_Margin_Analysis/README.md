@@ -32,29 +32,29 @@ This project combines SQL and Python to analyze customer behavior and product pe
 
 ## Analysis
 ### Q1. How are customers spread across different RFM segments, and which segments generate the most revenue relative to their size?
-**Approach**
+#### **Approach**
 - Aggregated customer-level transaction data to calculate recency, frequency, and monetary value
 - Assigned RFM scores using percentile-based thresholds
 - Classified customers into standard RFM segments
 - Compared segment size and total revenue contribution
 
-**SQL**
+#### **SQL**
 - Query: [1_create_rfm_segmentation_view.sql](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/1_create_rfm_segmentation_view.sql)  
 This query creates a reusable RFM segmentation view using percentile-based scoring.
 
-**Visualization**
+#### **Visualization**
 - RFM segment distribution and revenue contribution (treemap)
 - Built using Python (Pandas, Matplotlib). Code: [3_visualization.ipynb](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/3_visualization.ipynb)  
 
 ![RFM Segment Treemap](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/images/RFM_segment_treemap.png)
 
-## Key Findings
+#### **Key Findings**
 - High-value segments (Champions & Loyal) represent a small share of customers (~14%) but contribute a disproportionately large portion of total revenue.
 - Mid-value segments (Potential Loyalists, Need Attention, Promising) make up the largest customer base and generate a solid share of revenue.
 - Low-value and inactive segments (About to Sleep, Lost, Active Low Spenders) account for a large number of customers but contribute relatively low revenue.
 - Revenue contribution is highly concentrated among a few customer segments rather than evenly distributed.
 
-## Business Insights
+#### **Business Insights**
 - High-Value Segments (Champions & Loyal):  
 Prioritize retention through loyalty programs, exclusive offers, or premium benefits, as losing even a small number of these customers would have a strong revenue impact.
 - Mid-Value Segments (Potential Loyalists & Need Attention):  
