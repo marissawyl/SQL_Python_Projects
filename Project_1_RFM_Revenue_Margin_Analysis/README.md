@@ -46,7 +46,7 @@ This query creates a reusable RFM segmentation view using percentile-based scori
 - RFM segment distribution and revenue contribution (treemap)
 - Built using Python (Pandas, Matplotlib). Code: [3_visualization.ipynb](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/3_visualization.ipynb)  
 
-![RFM Segment Treemap](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/images/RFM_segment_treemap.png)
+![RFM Segment Treemap](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/images/rfm_segment_treemap.png)
 
 #### **Key Findings**
 - High-value segments (Champions & Loyal) represent a small share of customers (~14%) but contribute a disproportionately large portion of total revenue.
