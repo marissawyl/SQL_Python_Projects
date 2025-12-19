@@ -118,3 +118,29 @@ This query aggregates category-level sales metrics for Champions and Loyal custo
 - Loyal customers contribute higher purchase volumes across most categories, making them good targets for cross-category campaigns, bundles, and repeat-purchase incentives.
 - Champions generate high value despite lower purchase volume, so focusing on premium offerings and exclusive benefits is more effective than pushing discounts to increase quantity.
 - Categories like Movies, Games, and Music are popular in both segments and can be used as complementary products to increase basket size.
+
+### Q4. How does revenue break down by category and subcategory for high-value customer segments?
+#### **Approach**
+- Focused on high-value RFM segments: Champions and Loyal customers
+- Aggregated total revenue at the product subcategory level and grouped it under each main product category.
+- Compared revenue patterns between Champions and Loyal customers to understand which categories and subcategories generate the most revenue.
+
+#### **SQL**
+- Query: [2_high_value_customer_category_analysis.sql](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/2_high_value_customer_category_analysis.sql)  
+This query aggregates category-level sales metrics for Champions and Loyal customers.
+
+#### **Visualization**
+- Revenue distribution by product category and subcategory using horizontal stacked bar charts.
+- Built using Python (Pandas, Matplotlib). Code: [3_visualization.ipynb](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/3_visualization.ipynb)  
+
+![Revenue Distribution Subcat](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/images/revenue_distribution_subcat.png)
+
+#### **Key Findings**
+- Revenue in Computers category is mainly driven by a few dominant subcategories such as Desktops, Laptops, and Projectors for both Champions and Loyal customers.
+- Within the Cell Phones category, revenue is concentrated in a small number of core subcategories, while other subcategories contribute relatively less to total revenue.
+- Some Home Appliances subcategories generate relatively high revenue in Q4 despite having lower sales volume in Q3, suggesting higher-priced or higher-value products.
+- Cameras and Audio subcategories generate relatively low revenue, which is consistent with their lower sales volume observed in Q3 and indicates lower demand among high-value customers.
+- Although Loyal customers purchase higher volumes overall (as shown in Q3), both Champions and Loyal show similar subcategory preferences.
+
+#### **Business Insights**
+- 
