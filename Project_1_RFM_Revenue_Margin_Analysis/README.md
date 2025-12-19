@@ -90,3 +90,31 @@ This query creates a reusable RFM segmentation view using percentile-based scori
 - A small group of customers drives a disproportionate share of total spending and should be carefully retained.
 - Median values better represent the “typical” customer than averages, which are influenced by a few extreme cases.
 - Growth efforts should balance activating the large low-engagement base while protecting high-spending customers who skew overall performance.
+
+### Q3. Which product categories generate the highest sales volume among high-value customer segments, such as Champions and Loyal customers?
+#### **Approach**
+- Focused on high-value RFM segments: Champions and Loyal customers
+- Aggregated total units sold by product category for each segment
+- Compared category-level purchase patterns between the two segments
+
+#### **SQL**
+- Query: [2_high_value_customer_category_analysis.sql](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/2_high_value_customer_category_analysis.sql)  
+This query aggregates category-level sales metrics for Champions and Loyal customers.
+
+#### **Visualization**
+- Horizontal bar charts showing total units sold by product category
+- Built using Python (Pandas, Seaborn, Matplotlib). Code: [3_visualization.ipynb](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/3_visualization.ipynb)  
+
+![Product Category Performance](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/images/product_category_performance.png)
+
+#### **Key Findings**
+- Computers and Cell Phones are the top-selling categories for both Champions and Loyal customers.
+- Loyal customers purchase higher volumes overall compared to Champions across most categories.
+- Entertainment-related categories (Music, Movies, and Audio Books; Games and Toys) show strong demand from both segments.
+- Cameras and Audio show limited demand among high-value customers, suggesting a smaller market compared to core categories like Computers and Cell Phones.
+
+#### **Business Insights**
+- Computers and Cell Phones are key volume drivers for high-value customers and should remain a priority for inventory and promotions.
+- Loyal customers contribute higher purchase volumes across most categories, making them good targets for cross-category campaigns, bundles, and repeat-purchase incentives.
+- Champions generate high value despite lower purchase volume, so focusing on premium offerings and exclusive benefits is more effective than pushing discounts to increase quantity.
+- Categories like Movies, Games, and Music are popular in both segments and can be used as complementary products to increase basket size.
