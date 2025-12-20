@@ -173,5 +173,9 @@ This query aggregates category-level sales metrics for Champions and Loyal custo
 - Champions and Loyal customers buy similar product categories, so category-level pricing and product decisions are likely more effective than segment-specific promotions.
 
 ## Strategic Recommendations
-- Retain High-Value Customers: Focus on Champions & Loyal customers with loyalty programs, premium perks, and personalized offers to protect key revenue.
-- 
+- Prioritize retention for Champions and Loyal customers with loyalty programs, exclusive offers, and premium benefits to protect key revenue.
+- Focus on upsell and engagement strategies for Potential Loyalists and Need Attention customers to move them up the RFM ladder.
+- Re-engage At-Risk customers with targeted campaigns and personalized incentives to recover potentially lost revenue.
+- Prioritize core categories like Computers and Cell Phones for inventory, promotions, and premium offerings.
+- Use complementary categories like Movies, Games, and Music to increase basket size among Loyal and Champion customers.
+- Focus on high-revenue, high-margin categories for maximum impact, and bundle mid-margin categories with core products to improve profitability.
