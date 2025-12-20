@@ -165,7 +165,10 @@ This query aggregates category-level sales metrics for Champions and Loyal custo
 
 #### **Key Findings**
 - Computers generate the highest revenue for both Champions and Loyal customers, with relatively strong margins.
-- Some mid-revenue categories, such as TV & Video and Music, Movies, and Audio Books, show better margin performance than their revenue size suggests.
+- Some mid-revenue categories, such as TV & Video and Music, Movies, and Audio Books, show good margins even though their revenue is not very high.
+- Audio and Games & Toys contribute little revenue and low margins, making them less important for overall performance.
 
 #### **Business Insights**
-- 
+- Categories like Computers should remain a top priority because they combine high revenue with strong margins, giving the biggest impact on overall results.
+- Mid-revenue but higher-margin categories (such as TV & Video and Music, Movies, and Audio Books) can be used to improve profitability, especially when bundled with core products like Computers or Cell Phones rather than heavily discounted.
+- Champions and Loyal customers buy similar product categories, so category-level pricing and product decisions are likely more effective than segment-specific promotions.
