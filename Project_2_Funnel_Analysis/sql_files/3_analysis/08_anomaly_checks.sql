@@ -77,5 +77,4 @@ JOIN total_related_orders tr ON ac.cohort_year = tr.cohort_year
 JOIN total_all_orders ta ON ta.cohort_year = tr.cohort_year
 ORDER BY
 	ac.cohort_year,
-
 	ac.anomaly_type
