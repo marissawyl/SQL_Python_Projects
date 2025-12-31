@@ -12,5 +12,6 @@ SELECT
 FROM olist_orders o
 JOIN olist_customers c ON o.customer_id = c.customer_id
 GROUP BY
-	c.customer_unique_id
+	c.customer_unique_id;
+
 
