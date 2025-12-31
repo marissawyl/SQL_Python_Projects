@@ -27,4 +27,4 @@ SELECT
 	-- Percent of delivered orders that were not reviewed relative to all delivered orders per cohort
 	ROUND((100 * not_reviewed_cnt::NUMERIC / total_delivered_cnt), 2) AS pct_vs_delivered_orders
 FROM agg
-ORDER BY cohort_year
+ORDER BY cohort_year;
