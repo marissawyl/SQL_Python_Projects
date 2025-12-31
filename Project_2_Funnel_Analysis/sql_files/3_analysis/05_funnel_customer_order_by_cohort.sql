@@ -96,4 +96,5 @@ FROM
 	funnel
 ORDER BY
 	cohort_year,
-	step_order
+	step_order;
+
