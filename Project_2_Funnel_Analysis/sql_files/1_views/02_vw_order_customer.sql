@@ -5,6 +5,7 @@
 -- 2. is_delivered checks if the order was actually delivered.
 -- 3. is_reviewed checks if the order has at least one review.
 -- The idea is to keep all order-level info in one place, so don’t have to repeat the same joins and logic again.
+-- Grain: 1 row = 1 order.
 
 CREATE OR REPLACE VIEW vw_order_customer AS
 SELECT
@@ -41,4 +42,5 @@ SELECT
 FROM olist_orders o
 JOIN olist_customers c ON o.customer_id = c.customer_id
 JOIN mv_customer_cohort cc ON c.customer_unique_id = cc.customer_unique_id;
+
 
