@@ -2,7 +2,7 @@
 
 ## 1. Customer Cohort Materialized View
 
-The query groups customers by their unique customer ID and finds the date of their first order. From that first order date, I extract the year and uses it as the cohort year.
+The query groups customers by their unique customer ID and finds the date of their first order. From that first order date, it extracts the year and uses it as the cohort year.
 
 SQL query: [Customer Cohort Materialized View](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/sql_files/1_views/01_mv_customer_cohort.sql)
 
