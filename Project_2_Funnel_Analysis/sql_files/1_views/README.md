@@ -7,7 +7,7 @@ The query groups customers by their unique customer ID and finds the date of the
 SQL query: [Customer Cohort Materialized View](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/sql_files/1_views/01_mv_customer_cohort.sql)
 
 **Result preview:**  
-![Customer Cohort Materialized View](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/images/mv.JPG)
+![Customer Cohort Materialized View](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/images/customer_cohort_mview.png)
 
 ## 2. Order Customer View
 
