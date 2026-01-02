@@ -90,4 +90,5 @@ JOIN total_approved_per_cohort tac ON ad.cohort_year = tac.cohort_year
 ORDER BY
 	cohort_year,
 	step_num,
-	reason;
+	drop_off_order_cnt DESC;
+
