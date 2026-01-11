@@ -97,4 +97,3 @@ FROM
 ORDER BY
 	cohort_year,
 	step_order;
-
