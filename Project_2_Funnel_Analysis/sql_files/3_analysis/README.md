@@ -30,3 +30,20 @@ The output shows (per cohort year):
 - Drop-off rate between consecutive steps
 
 This result provides a high-level view of funnel progression per cohort.
+
+## 2. Funnel Drop-off Analysis
+
+This analysis focuses on order-level drop-offs between funnel steps and breaks them down by order_status.
+
+Two transitions are analyzed:
+- Ordered → Approved
+- Approved → Delivered
+
+For each cohort year and funnel step, the query calculates:
+- Drop-off order counts by reason (order status)
+- Percentage relative to the relevant funnel step
+- Percentage relative to all orders in the cohort (global view)
+
+This helps separate:
+- *Where* drop-offs happen in the funnel
+- *What status* orders are in when they drop off
