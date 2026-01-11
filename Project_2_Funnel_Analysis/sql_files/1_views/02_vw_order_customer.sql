@@ -42,5 +42,3 @@ SELECT
 FROM olist_orders o
 JOIN olist_customers c ON o.customer_id = c.customer_id
 JOIN mv_customer_cohort cc ON c.customer_unique_id = cc.customer_unique_id;
-
-
