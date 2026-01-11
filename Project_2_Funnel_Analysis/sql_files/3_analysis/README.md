@@ -1,4 +1,4 @@
-# Funnel, Drop-off, and Behavior Analysis (SQL)
+# Funnel, Drop-off, and Behavior Analysis
 
 This folder contains SQL queries used to analyze customer behavior across the order funnel by cohort year.
 All queries here are built on top of prepared views (`mv_customer_cohort` and `vw_order_customer`) and focus on aggregations that are later used for visualization in Python.
