@@ -1,7 +1,8 @@
 # Funnel, Drop-off, and Behavior Analysis
 
 This folder contains SQL queries used to analyze customer behavior across the order funnel by cohort year.  
-All queries here are built on top of prepared views (`mv_customer_cohort` and `vw_order_customer`) and focus on aggregations that are later used for visualization in Python.
+All queries here are built on top of prepared views (`mv_customer_cohort` and `vw_order_customer`) and focus on aggregations that are later used for visualization in Python.  
+Results are later visualized and interpreted in Python.
 
 ## Analysis Scope
 
@@ -47,3 +48,33 @@ For each cohort year and funnel step, the query calculates:
 This helps separate:
 - *Where* drop-offs happen in the funnel
 - *What status* orders are in when they drop off
+
+## 3. Review Behavior Analysis
+
+This query analyzes review behavior after orders are delivered.  
+Since leaving a review is optional, this analysis is treated as **customer behavior**, not funnel drop-off.
+
+The query:
+- Filters only approved and delivered orders
+- Groups results by cohort year and order quarter
+- Counts how many delivered orders were not reviewed
+- Calculates the share of non-reviewed orders relative to delivered orders
+
+The output is used to understand post-purchase engagement patterns separately from funnel performance.
+
+## 4. Anomaly and Data Consistency Checks
+
+This analysis looks for unusual or inconsistent order states, grouped by cohort year and order quarter.
+
+Examples of anomalies include:
+- Delivered orders that were not approved
+- Reviewed orders that were not approved
+- Reviews created before delivery
+- Reviews appearing while orders are still in the pipeline
+
+Each anomaly type is:
+- Counted per cohort and quarter
+- Compared to the relevant order base (delivered or reviewed)
+- Also compared to all orders in the same cohort and quarter
+
+This step helps surface data patterns that may require further investigation.
