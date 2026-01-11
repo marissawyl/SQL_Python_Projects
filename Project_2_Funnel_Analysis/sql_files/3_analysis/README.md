@@ -15,7 +15,7 @@ The SQL analysis in this folder covers four main areas:
 
 This query builds a customer-level funnel by cohort year.
 
-The funnel follows these steps:
+The funnel follows these steps:  
 **Ordered → Approved → Delivered → Reviewed**
 
 Key points:
