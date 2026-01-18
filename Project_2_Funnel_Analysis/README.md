@@ -54,6 +54,17 @@ Calculates funnel size, conversion rate, and drop-off rate per cohort year.
 
 ![order_to_review_conversion_funnel](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/images/order_to_review_conversion_funnel.png)
 
+#### **Key Findings**
+1. Customer cohorts show clear improvement from 2016 to 2018. Later cohorts retain a higher percentage of orders through each funnel stage, from approval to delivery and review.
+2. The 2016 cohort shows a noticeable drop after approval, with delivery conversion falling to around 81%, while 2017 and 2018 cohorts maintain delivery rates above 96%.
+3. Once an order is delivered, the likelihood of receiving a review remains relatively stable within each cohort. There is no major additional drop after delivery, indicating that delivery is the main bottleneck, not review behavior itself.
+4. Orders from the 2018 cohort retain over 97% of customers through delivery and review, suggesting operational improvements or better customer experience compared to earlier years.
+
+#### **Key Findings**
+1. Even though almost all orders get approved, a noticeable drop happens before orders are delivered. Improving this stage will have the biggest impact on the overall funnel.
+2. Newer customer cohorts show higher conversion rates at almost every step. This suggests that order processing and delivery operations have improved over time.
+3. Efforts should focus on approval and delivery processes, not post-delivery engagement, because fixing early issues affects all later steps.
+
 ### Q2. What order statuses are most commonly associated with failed progression?
 
 ### Q3. How does post-delivery review participation change over time?
