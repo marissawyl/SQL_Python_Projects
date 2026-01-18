@@ -31,3 +31,14 @@ The workflow combines SQL for data modeling and Python for analysis and visualiz
   - Query analytical tables
   - Visualize funnel performance by cohort
   - Explore drop-off composition and review behavior
+
+## Tools Used
+
+- **PostgreSQL**: Funnel logic, cohort modeling, drop-off calculations
+- **Python**: Data analysis and visualization
+  - **Pandas**
+  - **Matplotlib**
+  - **Seaborn**
+- **SQLAlchemy & psycopg2**: Database connection
+- **Visual Studio Code & DBeaver**: Development and database tools
+- **Jupyter Notebook**: Notebook environment
