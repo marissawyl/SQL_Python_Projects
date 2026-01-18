@@ -45,7 +45,7 @@ The workflow combines SQL for data modeling and Python for analysis and visualiz
 - Conversion and drop-off rates are calculated at each step for every cohort.
 
 #### **SQL**
-- Query: [01_funnel_customer_order_by_cohort.sql](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/sql_files/3_analysis/01_funnel_customer_order_by_cohort.sql)
+- Query: [01_funnel_customer_order_by_cohort.sql](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/sql_files/3_analysis/01_funnel_customer_order_by_cohort.sql)  
 Calculates funnel size, conversion rate, and drop-off rate per cohort year.
 
 #### **Visualization**
