@@ -60,12 +60,15 @@ Calculates funnel size, conversion rate, and drop-off rate per cohort year.
 3. Once an order is delivered, the likelihood of receiving a review remains relatively stable within each cohort. There is no major additional drop after delivery, indicating that delivery is the main bottleneck, not review behavior itself.
 4. Orders from the 2018 cohort retain over 97% of customers through delivery and review, suggesting operational improvements or better customer experience compared to earlier years.
 
-#### **Key Findings**
-1. Even though almost all orders get approved, a noticeable drop happens before orders are delivered. Improving this stage will have the biggest impact on the overall funnel.
-2. Newer customer cohorts show higher conversion rates at almost every step. This suggests that order processing and delivery operations have improved over time.
-3. Efforts should focus on approval and delivery processes, not post-delivery engagement, because fixing early issues affects all later steps.
+#### **Business Takeaways**
+1. Prioritize improvements in the approval-to-delivery stage, as this is where the biggest losses occur and where changes will have the greatest impact on overall conversion.
+2. Review and standardize operational practices used in recent cohorts, since newer cohorts consistently perform better across the funnel.
+3. Allocate fewer resources to post-delivery interventions, as drop-off after delivery is minimal and does not appear to be a major problem area.
+4. Focus retention and process optimization efforts before delivery, rather than after, to prevent avoidable losses earlier in the customer journey.
 
 ### Q2. What order statuses are most commonly associated with failed progression?
+#### **Approach**
+- 
 
 ### Q3. How does post-delivery review participation change over time?
 
