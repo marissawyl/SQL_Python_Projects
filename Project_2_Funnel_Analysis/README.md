@@ -72,7 +72,16 @@ Calculates funnel size, conversion rate, and drop-off rate per cohort year.
 - Drop-offs are broken down by order_status to identify common failure reasons.
 - Metrics are calculated both relative to the funnel step and to total cohort orders.
 
+#### **SQL**
+- Query: [02_dropoff_analysis_by_status.sql
+](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/sql_files/3_analysis/02_dropoff_analysis_by_status.sql)  
+Identifies drop-offs between Ordered → Approved and Approved → Delivered, including drop-off reasons.
 
+#### **Visualization**
+- Stacked bar chart showing drop-off composition by order status
+- Built using Python (Pandas, Matplotlib). Code: [02_dropoff_analysis.ipynb](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/python_files/02_dropoff_analysis.ipynb)
+
+![dropoff_analysis](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/images/dropoff_analysis.png)
 
 ### Q3. How does post-delivery review participation change over time?
 
