@@ -114,3 +114,21 @@ Aggregates delivered vs non-reviewed orders by cohort and time period.
 3. Reuse recent cohort practices as the baseline for post-delivery engagement, instead of redesigning the review flow.
 
 ### Q4. Are there any anomalies or inconsistencies in the order lifecycle?
+#### **Approach**
+- This analysis focuses on identifying unusual patterns in the order-to-review process.
+- Anomaly rates are calculated by cohort and order quarter.
+- A heatmap is used to highlight unusual spikes over time.
+
+#### **SQL**
+- Query: [04_anomaly_checks.sql](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/sql_files/3_analysis/04_anomaly_checks.sql)  
+Classifies and counts different anomaly types by cohort and time period.
+
+#### **Visualization**
+- Anomaly rate by quarter per cohort (heatmap)
+- Built using Python (Pandas, Matplotlib). Code: [04_anomaly_checks.ipynb](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/python_files/04_anomaly_checks.ipynb)
+
+![anomaly_checks](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/images/anomaly_checks.png)
+
+#### **Key Findings**
+
+#### **Business Takeaways**
