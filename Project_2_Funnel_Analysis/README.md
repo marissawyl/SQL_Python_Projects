@@ -82,10 +82,6 @@ Identifies drop-offs between Ordered → Approved and Approved → Delivered, in
 
 ![dropoff_analysis](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/images/dropoff_analysis.png)
 
-#### **Key Findings**
-
-#### **Business Takeaways**
-
 ### Q3. How does post-delivery review participation change over time?
 #### **Approach**
 - The analysis focuses only on delivered orders.
