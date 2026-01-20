@@ -73,8 +73,7 @@ Calculates funnel size, conversion rate, and drop-off rate per cohort year.
 - Metrics are calculated both relative to the funnel step and to total cohort orders.
 
 #### **SQL**
-- Query: [02_dropoff_analysis_by_status.sql
-](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/sql_files/3_analysis/02_dropoff_analysis_by_status.sql)  
+- Query: [02_dropoff_analysis_by_status.sql](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/sql_files/3_analysis/02_dropoff_analysis_by_status.sql)  
 Identifies drop-offs between Ordered → Approved and Approved → Delivered, including drop-off reasons.
 
 #### **Visualization**
@@ -83,6 +82,35 @@ Identifies drop-offs between Ordered → Approved and Approved → Delivered, in
 
 ![dropoff_analysis](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/images/dropoff_analysis.png)
 
+#### **Key Findings**
+
+#### **Business Takeaways**
+
 ### Q3. How does post-delivery review participation change over time?
+#### **Approach**
+- The analysis focuses only on delivered orders.
+- It measures how many delivered orders do not receive a review.
+- Results are analyzed by cohort and by order quarter.
+
+#### **SQL**
+- Query: [03_funnel_review_engagement_by_cohort.sql](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/sql_files/3_analysis/03_funnel_review_engagement_by_cohort.sql)  
+Aggregates delivered vs non-reviewed orders by cohort and time period.
+
+#### **Visualization**
+- Heatmap of non-reviewed delivered orders by cohort and quarter
+- Built using Python (Pandas, Matplotlib). Code: [03_funnel_review_engagement.ipynb](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/python_files/03_funnel_review_engagement.ipynb)
+
+![funnel_review_engagement](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/images/funnel_review_engagement.png)
+
+#### **Key Findings**
+1. Across all cohorts and quarters, the share of delivered orders that were not reviewed is very low (generally below 2.5%).
+2. Cohort 2017 shows stable review behavior over time, with most quarters around 0.7–0.8%.
+3. Cohort 2017 shows stable review behavior over time, with most quarters around 0.7–0.8%.
+4. Cohort 2018 has the lowest and declining non-review rate, dropping to below 0.5% in later quarters.
+
+#### **Business Takeaways**
+1. Since very few delivered orders are not reviewed, review participation is not a major problem in the funnel.
+2. The spike in 2018Q1 should be checked for potential anomalies, such as system issues or changes in the review process.
+3. Reuse recent cohort practices as the baseline for post-delivery engagement, instead of redesigning the review flow.
 
 ### Q4. Are there any anomalies or inconsistencies in the order lifecycle?
