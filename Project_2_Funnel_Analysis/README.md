@@ -99,6 +99,7 @@ Aggregates delivered vs non-reviewed orders by cohort and time period.
 #### **Visualization**
 - Heatmap of non-reviewed delivered orders by cohort and quarter
 - Built using Python (Pandas, Matplotlib). Code: [03_funnel_review_engagement.ipynb](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/python_files/03_funnel_review_engagement.ipynb)
+- Darker cells indicate higher anomaly rates, while blank cells represent periods with no data.
 
 ![funnel_review_engagement](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/images/funnel_review_engagement.png)
 
@@ -126,6 +127,7 @@ Classifies and counts different anomaly types by cohort and time period.
 #### **Visualization**
 - Anomaly rate by quarter per cohort (heatmap)
 - Built using Python (Pandas, Matplotlib). Code: [04_anomaly_checks.ipynb](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/python_files/04_anomaly_checks.ipynb)
+- Darker cells indicate higher anomaly rates, while blank cells represent periods with no data.
 
 ![anomaly_checks](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/images/anomaly_checks.png)
 
