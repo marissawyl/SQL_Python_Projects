@@ -132,5 +132,12 @@ Classifies and counts different anomaly types by cohort and time period.
 ![anomaly_checks](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/images/anomaly_checks.png)
 
 #### **Key Findings**
+1. Early cohorts (2016) show very high anomaly rates in the initial quarters, especially for pipeline latency and reviews submitted before delivery.
+2. Anomaly rates drop significantly in later cohorts, with 2017 and 2018 showing much lower and more stable values.
+3. Pipeline latency anomalies decrease steadily over time, suggesting improvements in order processing and system reliability.
+4. Most anomaly types remain below 2% in recent periods, indicating that anomalies are relatively rare in the mature stages of the funnel.
 
 #### **Business Takeaways**
+1. Treat early-cohort anomalies as historical issues, not current performance problems, since they are concentrated in the earliest periods.
+2. Use recent cohorts (2017–2018) as the operational baseline, as anomaly rates are consistently low and stable.
+3. Monitor pipeline latency as a leading signal, since it appears more frequently than other anomaly types and reflects operational health.
