@@ -147,3 +147,12 @@ Classifies and counts different anomaly types by cohort and time period.
 1. Treat early-cohort anomalies as historical issues, not current performance problems, since they are concentrated in the earliest periods.
 2. Use recent cohorts (2017–2018) as the operational baseline, as anomaly rates are consistently low and stable.
 3. Monitor pipeline latency as a leading signal, since it appears more frequently than other anomaly types and reflects operational health.
+
+## Strategic Recommendations
+- Across all analyses, the largest and most consistent losses happen between approval and delivery. This stage shows both the biggest conversion drop (Q1) and the most complex failure reasons (Q2). Improving delivery-related operations will create the biggest overall impact on funnel performance.
+- Customer cohorts from 2017–2018 consistently perform better across funnel conversion, review behavior, and anomaly rates (Q1, Q3, Q4). These cohorts should be treated as the reference standard when evaluating processes, setting KPIs, or identifying regressions.
+- Drop-off reasons change across quarters (Q2), meaning a single, permanent fix is unlikely to work. Improvement efforts should focus on the dominant failure reason in each period, rather than applying one global solution across all timeframes.
+- Both review behavior (Q3) and anomaly rates after delivery (Q4) are consistently low. This indicates that post-delivery engagement is functioning well and does not require major redesign. Resources are better spent preventing failures earlier in the funnel.
+- Anomalies are heavily concentrated in early cohorts and early periods (Q4). In recent cohorts, anomaly rates are low and stable, suggesting that system reliability has improved. Anomaly analysis should be used to validate operational health, not as the main driver of funnel optimization.
+
+Overall funnel performance has improved over time, with remaining opportunities concentrated before delivery rather than after, and best addressed through targeted, period-specific operational improvements.
