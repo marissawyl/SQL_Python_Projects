@@ -94,4 +94,5 @@ LEFT JOIN total_approved_per_quarter taq ON ad.order_quarter = taq.order_quarter
 ORDER BY
 	ad.order_quarter,
 	ad.step_num,
+
 	pct_of_drop_off DESC;
