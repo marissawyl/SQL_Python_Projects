@@ -68,9 +68,10 @@ Calculates funnel size, conversion rate, and drop-off rate per cohort year.
 
 ### Q2. What order statuses are most commonly associated with failed progression?
 #### **Approach**
-- Orders that failed to move forward are grouped by funnel step.
+- Orders are analyzed based on order time (quarter).
 - Drop-offs are broken down by order_status to identify common failure reasons.
-- Metrics are calculated both relative to the funnel step and to total cohort orders.
+- Only valid lifecycle states are included (for example, orders reviewed before delivery are excluded)
+- Metrics are calculated both relative to the funnel step and to total quarter orders.
 
 #### **SQL**
 - Query: [02_dropoff_analysis_by_status.sql](https://github.com/marissawyl/SQL_Python_Projects/blob/main/Project_2_Funnel_Analysis/sql_files/3_analysis/02_dropoff_analysis_by_status.sql)  
