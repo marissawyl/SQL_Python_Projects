@@ -87,10 +87,12 @@ Identifies drop-offs between Ordered → Approved and Approved → Delivered, in
 1. For Ordered → Approved, drop-offs are typically dominated by a single status per quarter, suggesting early-stage failures are concentrated in specific order states.
 2. For Approved → Delivered, drop-offs are more spread across multiple statuses, indicating more complex operational issues after approval.
 3. The dominant drop-off reasons change over time, showing that failure patterns are not static across quarters.
+4. In the Approved → Delivered stage, most drop-offs are associated with the shipped status, suggesting that many orders progress to shipping but fail to complete the delivery lifecycle, likely due to last-mile delivery issues or missing delivery confirmations.
 
 #### **Business Takeaways**
 1. Focus improvement efforts on the largest drop-off status observed in each quarter’s analysis to maximize impact.
 2. For the Approved → Delivered stage, address drop-offs across multiple checkpoints (e.g. shipping, availability, invoicing) instead of focusing on one root cause.
+3. Prioritize investigation into shipped-but-not-delivered orders, as improving last-mile delivery reliability or delivery status tracking could significantly reduce post-approval drop-offs.
 
 ### Q3. How does post-delivery review participation change over time?
 #### **Approach**
